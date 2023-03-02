@@ -14,8 +14,8 @@ public class Testing {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
-                .body("dota", equalTo("some data"))
+                .statusCode(100)
+                .body("data", equalTo("some info"))
                 ;
     }
 }
